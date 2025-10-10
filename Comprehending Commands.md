@@ -71,7 +71,7 @@ This challenge tells the usage and implementation of grep command.
 ### Solve
 **Flag:** `pwn.college{oJX9JDAdkYHFcIN4J4g3P2RuWA0.QX3EDO0wCM4EzNzEzW}`
 
-This challenge makes us use the grip command to search through a huge text file (for example, the file given has hundred thousand lines of text). In the example given. the syntax of a grip command was given as "grep SEARCH_STRING /path/to/file". Using this, the SEARCH_STRING to be found is "pwn.college" and the path to file is given as "/challenge/data.txt". Putting them together, giving "grep pwn.college /challenge/data.txt" as the input gives flag as the output. Then the flag was copied and pasted into the flag box.
+This challenge makes us use the grep command to search through a huge text file (for example, the file given has hundred thousand lines of text). In the example given. the syntax of a grep command was given as "grep SEARCH_STRING /path/to/file". Using this, the SEARCH_STRING to be found is "pwn.college" and the path to file is given as "/challenge/data.txt". Putting them together, giving "grep pwn.college /challenge/data.txt" as the input gives flag as the output. Then the flag was copied and pasted into the flag box.
 
 ```bash
 grep pwn.college /challenge/data.txt
